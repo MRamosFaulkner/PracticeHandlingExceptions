@@ -21,7 +21,7 @@ public class AverageSensor implements Sensor {
 
     public int read() {
         if (!isOn || sensors.isEmpty()) {
-            throw new IllegalStateException("Sensor is off non added")
+            throw new IllegalStateException("Sensor is off non added");
         }
 
         int sum = 0;

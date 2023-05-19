@@ -2,14 +2,17 @@ package application;
 
 public class StandardSensor implements Sensor {
 
-    private final init value;
+    private int value;
 
     public StandardSensor(int value) {
         this.value = value;
     }
+
+
     public int read() {
         return value;
     }
+
     public boolean isOn() {
         return true;
     }
@@ -18,7 +21,9 @@ public class StandardSensor implements Sensor {
 
     }
 
-    public setOff() {
 
+    public void setOff() {
+    //D
     }
+
 }

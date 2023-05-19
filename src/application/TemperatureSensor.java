@@ -14,7 +14,7 @@ public class TemperatureSensor implements Sensor {
 
     public int read() {
         if (!isOn) {
-            throw new IllegalStateException("The sensor is on.")
+            throw new IllegalStateException("The sensor is off.");
         }
 
         return random.nextInt(61) - 30;

@@ -1,4 +1,5 @@
 public class Calculator {
+
     public static int factorial(int number) {
         if (number < 0) {
             throw new IllegalArgumentException("Factorial is undefined for negative numbers");
